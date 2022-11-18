@@ -33,5 +33,6 @@ Since I am using windows OS,I would need to explicitly copy the files to host. I
 7. To copy the files to current host run (get the container name attached image from previous command) `docker cp <container name>:/opt/application/output C:/HD/`
 
 ![test](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/file.jpg)
+
 8. Once the files  are copied,you can open the file in `Apache Parquet viewer`
 ![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/parquetview.jpg)
