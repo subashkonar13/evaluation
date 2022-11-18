@@ -14,6 +14,7 @@ The folder/file structure is as below:
  - `etl.py` is the python script which perform the ETL job
  - `func` folder holds the individual python function to read,transform and write.
  - `Dockerfile`
+ - `requirements.txt`
 
 ## Prerequisites
 1. Install Docker Desktop.
