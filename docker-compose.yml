@@ -2,7 +2,7 @@ version: '2'
 
 services:
   spark:
-    image: personio-test
+    image: subashkonar13/evaluation
     environment:
       - SPARK_MODE=master
       - SPARK_RPC_AUTHENTICATION_ENABLED=no
