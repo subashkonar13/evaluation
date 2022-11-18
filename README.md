@@ -8,11 +8,11 @@ The folder/file structure is as below:
 
 ![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/image.png)
 
- - `input`-Input csv files 
- - `output`- output parquet files
+ - `input`-Input folder for csv files 
+ - `output`- output folder
  - `docker-compose.yml` is optional in case if the container config is required and the job has to be submitted at scale.
  - `etl.py` is the python script which perform the ETL job
- - `func` folder holds the individual python function to read,transform and write.
+ - `func`-folder holds the individual python function to read,transform and write.
  - `Dockerfile`
  - `requirements.txt`
 
