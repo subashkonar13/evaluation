@@ -6,6 +6,7 @@ The objective is to ingest the csv files and apply certain transformations in th
 The folder/file structure is as below:
 
 ![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/folder.jpg)
+
 `input`-Input csv files
 `output`- output parquet files
 `docker-compose.yml` is optional in case if the container config is required and the job has to submitted from spark-submit from host to container spark
