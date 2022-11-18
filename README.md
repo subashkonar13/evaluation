@@ -14,8 +14,8 @@ The folder/file structure is as below:
  - `main.py` is the python script which perform the ETL job
 
 ## Prerequisites
-1. Docker Desktop.
-2. Apache Parquet Viewer from [here](https://apps.microsoft.com/store/detail/apache-parquet-viewer/9PGB0M8Z4J2T?hl=en-us&gl=us) 
+1. Install Docker Desktop.
+2. Install Apache Parquet Viewer from [here](https://apps.microsoft.com/store/detail/apache-parquet-viewer/9PGB0M8Z4J2T?hl=en-us&gl=us) 
 
 **Note**: I am using Windows 11 to perform the installations.
 
