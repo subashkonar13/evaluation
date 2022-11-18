@@ -25,7 +25,7 @@ The folder/file structure is as below:
 ## Task to be performed:
 3. Run `docker pull subashkonar13/evaluation:latest`
 ![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/pull.jpg)
-4. Then Run `docker run  subashkonar13/evaluation:latest driver local:///opt/application/etl.py`
+4. Then Run `docker run  subashkonar13/evaluation:latest driver local:///opt/application/etl.py`.Currently its getting deployed in client mode.
 ![execute](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/execute.jpg)
 5. Get the **container name** attached to the image by running command `docker ps -a --format="container:{{.ID}} image:{{.Image}}"` 
 ![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/run.jpg)
