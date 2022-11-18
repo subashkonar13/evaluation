@@ -6,12 +6,14 @@ The objective is to ingest the csv files and apply certain transformations in th
 I have developed this image keeping in mind that it will handle this job as a single container.It can be further scaled by using docker-compose and customise the configs.
 The folder/file structure is as below:
 
-![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/folder.jpg)
+![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/image.png)
 
  - `input`-Input csv files 
  - `output`- output parquet files
  - `docker-compose.yml` is optional in case if the container config is required and the job has to be submitted at scale.
- - `main.py` is the python script which perform the ETL job
+ - `etl.py` is the python script which perform the ETL job
+ - `func` folder holds the individual python function to read,transform and write.
+ - `Dockerfile`
 
 ## Prerequisites
 1. Install Docker Desktop.
