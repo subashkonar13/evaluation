@@ -24,7 +24,7 @@ The folder/file structure is as below:
 ## Task to be performed:
 3. Run `docker pull subashkonar13/evaluation:latest`
 ![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/pull.jpg)
-4. Then Run `docker run  subashkonar13/evaluation:latest driver local:///opt/application/main.py`
+4. Then Run `docker run  subashkonar13/evaluation:latest driver local:///opt/application/etl.py`
 5. Get the **container name** attached to the image by running command `docker ps -a --format="container:{{.ID}} image:{{.Image}}"` 
 ![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/run.jpg)
 Since I am using windows OS,I would need to explicitly copy the files to host. In case of linux, the drive from linux host can be mounted easily to docker container path and files can be viewed from the host.
