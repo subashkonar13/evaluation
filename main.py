@@ -113,7 +113,7 @@ class ReadData:
         return df.na.drop("all")
 
     def writeData(self, df):
-        
+        df.cache()
         logger.info("Proceeding with writing to Destination")
         df.coalesce(1).write.partitionBy("flatrate").mode("overwrite").parquet(
             self.output_directory
