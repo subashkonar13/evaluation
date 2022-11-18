@@ -4,6 +4,7 @@ Creating Docker image for Spark and using it to submit jobs
 ## Description
 The objective is to ingest the csv files and apply certain transformations in the form of ETL using docker container
 The folder/file structure is as below:
+
 ![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/folder.jpg)
 `input`-Input csv files
 `output`- output parquet files
