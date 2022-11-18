@@ -24,5 +24,5 @@ The folder/file structure is as below:
 5. Get the **container name** attached to the image by running command `docker ps -a --format="container:{{.ID}} image:{{.Image}}"`. 
 ![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/run.jpg)
 Since I am using windows OS,I would need to explicitly copy the files to host. In case of linux, the drive from linux host can be mounted easily to docker container path and files can be viewed from the host.
-7. To copy the files to current host run (get the container name attached image from previous command) `docker cp <container name>:/opt/application/output C:/HD/Lecturio_ver4` 
+7. To copy the files to current host run (get the container name attached image from previous command) `docker cp <container name>:/opt/application/output C:/HD/` 
 8. Once the files  are copied,you can open the file in `Apache Parquet viewer`
