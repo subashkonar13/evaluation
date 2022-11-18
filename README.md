@@ -10,6 +10,7 @@ The folder/file structure is as below:
  - `input`-Input csv files 
  - `output`- output parquet files
  - `docker-compose.yml` is optional in case if the container config is required and the job has to be submitted at scale.
+ - `main.py` is the python script which perform the ETL job
 
 ## Prerequisites
 1. Docker Desktop.
