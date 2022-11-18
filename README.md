@@ -7,9 +7,9 @@ The folder/file structure is as below:
 
 ![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/folder.jpg)
 
-`input`-Input csv files
-`output`- output parquet files
-`docker-compose.yml` is optional in case if the container config is required and the job has to submitted from spark-submit from host to container spark
+ - `input`-Input csv files 
+ - `output`- output parquet files
+ - `docker-compose.yml` is optional in case if the container config is required and the job has to be submitted at scale.
 
 ## Prerequisites
 1. Docker Desktop.
