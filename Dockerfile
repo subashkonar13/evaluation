@@ -7,6 +7,7 @@ COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 
 USER root
+COPY func/ func/
 COPY input/ input/
-COPY out/ output/
-COPY main.py .
+COPY output/ output/
+COPY etl.py .
