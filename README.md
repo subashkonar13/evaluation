@@ -6,7 +6,7 @@ The objective is to ingest the csv files and apply certain transformations in th
 I have developed this image keeping in mind that it will handle this job as a single container.It can be further scaled by using docker-compose and customise the configs.
 The folder/file structure is as below:
 
-![enter image description here](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/file2.jpg)
+![enter image](https://raw.githubusercontent.com/subashkonar13/evaluation/main/images/file2.jpg)
 
  - `input`-Input folder for csv files 
  - `output`- output folder
